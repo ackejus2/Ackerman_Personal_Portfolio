@@ -22,7 +22,7 @@ train_dataset, val_dataset = random_split(lego_dataset, [train_size, val_size])
 train_loader = DataLoader(train_dataset, batch_size=16, shuffle=True, num_workers=2)
 val_loader = DataLoader(val_dataset, batch_size=16, shuffle=False, num_workers=2)
 
-# Use a GPU if available
+# Use the GPU
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
