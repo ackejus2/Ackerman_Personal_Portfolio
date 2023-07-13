@@ -1,19 +1,19 @@
-# H1 Rust Learning Project
+# Rust Learning Project
 
 This project is a start to learning the basic syntax and uses of the programming language Rust.
 
 This program allows a user to enter a file path with a number of words in the file. The program will then read the program, separate words into individual strings using blank space (space) between words, then count the number of occurences of each string in the file.
 
-## H2 Usage: 
+## Usage: 
 1. Enter a terminal
 2. Navigate to the program file in the directory
 3. Run the program using the command "cargo run -- <file_path> <number_of_words> 
 e.g. cargo run -- "D:\BYU-I\CSE 310\lorax.txt" 6050
 
-## H2 Demo:
+## Demo:
 I ran the above command in my IntelliJ IDEA terminal where I built the program. This program runs through the entire script of the movie "The Lorax", showing the output of the program.
 
-## H2 Output:
+## Output:
 I: 175
 the: 151
 you: 134
